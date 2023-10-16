@@ -1,5 +1,5 @@
 {
-    "name": "it_assignment",
+    "name": "it_s",
     "dependencies": {
         "serialport": "^12.0.0",
         "socket.io": "^2.0.4"
