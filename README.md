@@ -77,6 +77,8 @@ To get started with this project, follow these steps:
    ```bash
    node script.js
 
+## Final Product
+
 ## References
 
 HTML: Learn more about HTML, the standard markup language for creating web pages.
