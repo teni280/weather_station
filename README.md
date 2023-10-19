@@ -32,6 +32,10 @@ The code in this repository creates a simple web page that displays current weat
 ## Hardware Setup
 ![IMG_0001 2](https://github.com/teni280/weather_station/assets/148019777/beb18fe6-ddff-4365-a259-71134f7d6b72)
 
+- Connect the 3.3V (VCC) pin of the DHT11 to the 3.3V output of the ESP32.
+- Connect the GND (Ground) pin of the DHT11 to a ground (GND) pin on the ESP32.
+- Connect the data pin (DHTPIN) of the DHT11 to GPIO21 (or any other GPIO pin you choose) on the ESP32.
+
 
 ## How it works
 
