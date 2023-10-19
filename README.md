@@ -75,7 +75,7 @@ To get started with this project, follow these steps:
    ```bash
    git clone <repository-url>
 
-2. Upload the arduino code in sketch_oct9.ino to your ESP32 using Arduino IDE. Once uploaded close VS code
+2. Upload the arduino code in sketch_oct9.ino to your ESP32 using Arduino IDE. Once uploaded close Arduino. It will not work with arduino open.
 
 3. In vs code with this respoitroy in the terminal run the code in the terminal type in:
    ```bash
