@@ -54,7 +54,7 @@ This project uses an ESP32 microcontroller, programmed with the Arduino IDE, to 
 
 3. **Socket.IO Server**: A Socket.IO server (not included in this repository) is responsible for broadcasting the weather data to connected clients, including the web application.
 
-4. **Front-End Web Application**: The web application, which runs in a web browser, establishes a connection to the same Socket.IO server. It listens for 'data' events from the server and updates the temperature and humidity values in real time.
+4. **Front-End Web Application**: The web application, which runs in a web browser, establishes a connection to the same Socket.IO server. It listens for 'data' events from the server and updates the temperature and humidity values in real-time.
 
 The Arduino IDE provides a convenient platform for programming the ESP32 and handling data collection, making it an essential part of this project's architecture.
 
@@ -62,7 +62,7 @@ The Arduino IDE provides a convenient platform for programming the ESP32 and han
 ## Tools and equimpent
 
 - ESP32 Board
-- DHT11 or 12 Temperature and humidity sensore
+- DHT11 Temperature and humidity sensor
 - Jumper cables
 
 ## Getting Started
@@ -74,9 +74,9 @@ To get started with this project, follow these steps:
    ```bash
    git clone <repository-url>
 
-2. Upload the arduino code in sketch_oct9.ino to your ESP32 using Arduino IDE. Once uploaded, make sure you are using usbserial-10 as your port and ESP32 Dev module as your board, then close Arduino. It will not work with arduino open.
+2. Upload the Arduino code in sketch_oct9.ino to your ESP32 using Arduino IDE. Once uploaded, make sure you are using usbserial-10 as your port and ESP32 Dev module as your board, then close Arduino. It will not work with Arduino open.
 
-3. In vs code with this respoitroy in the terminal run the code in the terminal type in:
+3. In vs code with this repository in the terminal run the code in the terminal and type in:
    ```bash
    node script.js
 
