@@ -29,7 +29,8 @@ The code in this repository creates a simple web page that displays current weat
 - The Socket.IO library is used to establish a connection for real-time updates. It listens for a 'data' event and updates the temperature and humidity values accordingly.
 
 ## Hardware Setup
-![IMG_0001 2](https://github.com/teni280/weather_station/assets/148019777/beb18fe6-ddff-4365-a259-71134f7d6b72)
+![IMG_0004](https://github.com/teni280/weather_station/assets/148019777/98a7fc11-3b20-4742-98e9-6f1f9ad3a0db)
+
 
 - Connect the 3.3V (VCC) pin of the DHT11 to the 3.3V output of the ESP32.
 - Connect the GND (Ground) pin of the DHT11 to a ground (GND) pin on the ESP32.
@@ -38,7 +39,7 @@ The code in this repository creates a simple web page that displays current weat
 
 ## How it works
 
-Using a DHT11 and EJS templating language, the temeparture and humidity of the surrounding environment is read and the data is pasrsed to host on a local host server.
+Using a DHT11 and EJS templating language, the temperature and humidity of the surrounding environment is read and the data is parsed to host on a local host server.
 
 ## Libraries
 
@@ -61,9 +62,15 @@ The Arduino IDE provides a convenient platform for programming the ESP32 and han
 
 ## Tools and equimpent
 
-- ESP32 Board
-- DHT11 Temperature and humidity sensor
-- Jumper cables
+- ESP32 Board![IMG_0007](https://github.com/teni280/weather_station/assets/148019777/78339c79-e625-45e4-b7ee-6c1d9022389c)
+
+- DHT11 Temperature and humidity sensor![IMG_0004](https://github.com/teni280/weather_station/assets/148019777/f8e1f111-8000-40a9-8790-7e10981ad0c9)
+![IMG_0005](https://github.com/teni280/weather_station/assets/148019777/05ab2055-5b36-4ec2-be20-ff7a18cb4d11)
+
+- Jumper cables![IMG_0006](https://github.com/teni280/weather_station/assets/148019777/61293346-dffe-4c76-9e6f-6c43f0a82f9d)
+
+- Bread Board![IMG_0008](https://github.com/teni280/weather_station/assets/148019777/07c093a6-f035-411d-90ae-e5098b3945bc)
+
 
 ## Getting Started
 
