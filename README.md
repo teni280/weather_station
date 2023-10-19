@@ -28,14 +28,6 @@ The code in this repository creates a simple web page that displays current weat
 - Real-time weather data is obtained and displayed using the JavaScript code in `script.js`.
 - The Socket.IO library is used to establish a connection for real-time updates. It listens for a 'data' event and updates the temperature and humidity values accordingly.
 
-## Hardware Setup
-![IMG_0004](https://github.com/teni280/weather_station/assets/148019777/98a7fc11-3b20-4742-98e9-6f1f9ad3a0db)
-
-
-- Connect the 3.3V (VCC) pin of the DHT11 to the 3.3V output of the ESP32.
-- Connect the GND (Ground) pin of the DHT11 to a ground (GND) pin on the ESP32.
-- Connect the data pin (DHTPIN) of the DHT11 to GPIO21 (or any other GPIO pin you choose) on the ESP32.
-
 
 ## How it works
 
@@ -62,23 +54,32 @@ The Arduino IDE provides a convenient platform for programming the ESP32 and han
 
 ## Tools and equimpent
 
-- ESP32 Board![IMG_0007](https://github.com/teni280/weather_station/assets/148019777/78339c79-e625-45e4-b7ee-6c1d9022389c)
-  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
+- ESP32 Board
+<img width="227" alt="Screenshot 2023-10-19 at 6 58 12 pm" src="https://github.com/teni280/weather_station/assets/148019777/6e2123cf-f534-4669-b523-1b4b4bd9aac4">
 
-- DHT11 Temperature and humidity sensor![IMG_0004](https://github.com/teni280/weather_station/assets/148019777/f8e1f111-8000-40a9-8790-7e10981ad0c9)
-  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
+- DHT11 Temperature and humidity sensor
+<img width="197" alt="Screenshot 2023-10-19 at 6 57 36 pm" src="https://github.com/teni280/weather_station/assets/148019777/e0a83cbf-c46b-487d-8337-fd6250fe56cc">
 
 - Jumper cables
-  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
-  
+ <img width="448" alt="Screenshot 2023-10-19 at 6 57 49 pm" src="https://github.com/teni280/weather_station/assets/148019777/b67fe37b-1dbc-4092-9639-f4bc6caefeea">
+
 - Bread Board
-  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
+<img width="357" alt="Screenshot 2023-10-19 at 6 58 01 pm" src="https://github.com/teni280/weather_station/assets/148019777/6a766228-501e-494b-8fec-95fb3fb992b3">
+
+## Hardware Setup
+<img width="262" alt="Screenshot 2023-10-19 at 6 57 14 pm" src="https://github.com/teni280/weather_station/assets/148019777/ddd69459-fe62-4da0-ad26-1abda9a3ce4e">
+
+- Connect the 3.3V (VCC) pin of the DHT11 to the 3.3V output of the ESP32.
+- Connect the GND (Ground) pin of the DHT11 to a ground (GND) pin on the ESP32.
+- Connect the data pin (DHTPIN) of the DHT11 to GPIO21 (or any other GPIO pin you choose) on the ESP32.
+  
 
 ## Getting Started
 
 To get started with this project, follow these steps:
+1. Set up the hardware as per the hardware section of the READme.
 
-1. Clone this repository to your local machine:
+2. Clone this repository to your local machine:
 
    ```bash
    git clone <repository-url>
