@@ -24,8 +24,7 @@ The project is structured as follows:
 
 The code in this repository creates a simple web page that displays current weather information, including temperature and humidity. Here's an overview of how it works:
 
-- The web page structure is defined in the `index.html` file.
-- Styling is applied through the `style.css` file.
+- The web page structure and styling is defined in the `index.html` file.
 - Real-time weather data is obtained and displayed using the JavaScript code in `script.js`.
 - The Socket.IO library is used to establish a connection for real-time updates. It listens for a 'data' event and updates the temperature and humidity values accordingly.
 
