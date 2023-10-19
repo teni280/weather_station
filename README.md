@@ -63,14 +63,16 @@ The Arduino IDE provides a convenient platform for programming the ESP32 and han
 ## Tools and equimpent
 
 - ESP32 Board![IMG_0007](https://github.com/teni280/weather_station/assets/148019777/78339c79-e625-45e4-b7ee-6c1d9022389c)
+  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
 
 - DHT11 Temperature and humidity sensor![IMG_0004](https://github.com/teni280/weather_station/assets/148019777/f8e1f111-8000-40a9-8790-7e10981ad0c9)
-![IMG_0005](https://github.com/teni280/weather_station/assets/148019777/05ab2055-5b36-4ec2-be20-ff7a18cb4d11)
+  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
 
-- Jumper cables![IMG_0006](https://github.com/teni280/weather_station/assets/148019777/61293346-dffe-4c76-9e6f-6c43f0a82f9d)
-
-- Bread Board![IMG_0008](https://github.com/teni280/weather_station/assets/148019777/07c093a6-f035-411d-90ae-e5098b3945bc)
-
+- Jumper cables
+  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
+  
+- Bread Board
+  <img width="1462" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
 
 ## Getting Started
 
