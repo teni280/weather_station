@@ -79,6 +79,70 @@ To get started with this project, follow these steps:
 
 ## Final Product
 
+## Troubleshooting and Common Errors
+
+  ### No Data Displayed on the Web Interface
+  
+  - **Issue:** If you're not seeing weather data displayed on the web interface, several factors could be causing this problem.
+  
+  - **Solution:**
+    - Ensure that your ESP32 is properly connected and sending data to the server.
+    - Check the server logs for any incoming data from the ESP32.
+    - Review the JavaScript code for any potential issues with data reception and display on the web interface.
+  
+  ### Connectivity Issues
+  
+  - **Issue:** If you're facing connectivity issues between the ESP32, server, and web interface.
+  
+  - **Solution:**
+    - Check the network connections, making sure that the ESP32 and the server are on the same network.
+    - Verify that the Socket.IO connection is properly established.
+    - Ensure that the server is running and listening for incoming data.
+  
+  ### Incorrect Data Displayed
+  
+  - **Issue:** If the weather data displayed is incorrect or inconsistent.
+  
+  - **Solution:**
+    - Verify the accuracy of the sensors on the ESP32.
+    - Ensure that the data received by the server is accurate.
+    - Review data processing and conversion in your code to correct any discrepancies.
+  
+  ### Web Interface Not Accessible
+  
+  - **Issue:** If you can't access the web interface.
+  
+  - **Solution:**
+    - Check the HTML and JavaScript files for errors.
+    - Verify that the web server hosting the interface is running.
+    - Ensure that you're using the correct URL and port for accessing the interface.
+  
+  ### Arduino IDE Compilation Errors
+  
+  - **Issue:** If you encounter compilation errors when uploading code to the ESP32 using the Arduino IDE.
+  
+  - **Solution:**
+    - Make sure you've selected the correct board and port in the Arduino IDE.
+    - Verify that you have the necessary libraries and dependencies installed.
+    - Check your code for syntax errors and typos.
+  
+  ### Real-Time Data Lag
+  
+  - **Issue:** If there is a noticeable delay in displaying real-time data.
+  
+  - **Solution:**
+    - Optimize your code for data transmission and display efficiency.
+    - Consider reducing the data transmission interval or implementing data buffering to improve real-time updates.
+  
+  ### Socket.IO Connection Errors
+  
+  - **Issue:** If you're encountering issues with Socket.IO connections.
+  
+  - **Solution:**
+    - Ensure that the Socket.IO library and server are correctly configured.
+    - Check for firewall or security settings that might block Socket.IO connections.
+    - Debug the client-side and server-side Socket.IO code for issues.
+
 ## References
 
 1. Smith, J. (2019). Building Real-Time Web Applications with Socket.IO. *Web Development Journal*, 15(2), 123-140.
