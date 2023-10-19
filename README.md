@@ -81,6 +81,7 @@ To get started with this project, follow these steps:
    node script.js
 
 ## Final Product
+<img width="1462" alt="Screenshot 2023-10-19 at 6 38 30 pm" src="https://github.com/teni280/weather_station/assets/148019777/81623a90-bdb4-45ef-ac51-0fa56c02bcc9">
 
 ## Troubleshooting and Common Errors
 
